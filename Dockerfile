@@ -1,4 +1,5 @@
 FROM python:3.9 
+EXPOSE 8000
 # Or any preferred Python version.
 ADD main.py requirements.txt ./
 RUN apt-get update
